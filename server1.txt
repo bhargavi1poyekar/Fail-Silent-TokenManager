@@ -1,0 +1,156 @@
+Script started on 2023-05-14 19:54:46-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="79" LINES="29"]
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ exitgo run server.go -port 50054[K1
+[?2004l2023/05/14 19:54:50 Starting server 50051
+
+I am Writer
+
+Reader:%v
+ 10.0.2.15:50054
+
+Back to Writer
+
+ RPC ended for: 
+ Token Id:  token1
+Token Reader:  [10.0.2.15:50052 10.0.2.15:50053 10.0.2.15:50054]
+Token Writer:  10.0.2.15:50051
+Token State Final Value:  185
+Token latest Timestamp:  1684108575
+
+All Token id's:
+token1
+token2
+token3
+token4
+
+I am the Reader
+
+Asking for latest response from 10.0.2.15:50051
+
+Asking for latest response from 10.0.2.15:50053
+
+Asking for latest response from 10.0.2.15:50054
+
+ I am sending latest value
+
+ RPC ended for: 
+ Token Id:  token2
+Token Reader:  [10.0.2.15:50053 10.0.2.15:50054 10.0.2.15:50051]
+Token Writer:  10.0.2.15:50052
+Token State Final Value:  0
+Token latest Timestamp:  1684108490
+
+All Token id's:
+token1
+token2
+token3
+token4
+
+Value is being imposed
+
+ I am sending latest value
+
+Value is being imposed
+
+I am the Reader
+
+Asking for latest response from 10.0.2.15:50051
+
+Asking for latest response from 10.0.2.15:50052
+
+Asking for latest response from 10.0.2.15:50054
+
+ I am sending latest value
+
+ RPC ended for: 
+ Token Id:  token4
+Token Reader:  [10.0.2.15:50052 10.0.2.15:50054 10.0.2.15:50051]
+Token Writer:  10.0.2.15:50053
+Token State Final Value:  0
+Token latest Timestamp:  1684108490
+
+All Token id's:
+token2
+token3
+token4
+token1
+
+Value is being imposed
+
+ I am sending latest value
+
+ I am sending latest value
+^Csignal: interrupt
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ scit[K[K[K[Kexc[Kit
+[?2004lexit
+
+Script done on 2023-05-14 19:58:41-04:00 [COMMAND_EXIT_CODE="1"]
+Script started on 2023-05-14 19:59:42-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="79" LINES="29"]
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ c[Kexit
+[?2004lexit
+
+Script done on 2023-05-14 19:59:47-04:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-05-14 20:00:12-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="79" LINES="29"]
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ exitgo run server.go -port 50052
+[?2004l2023/05/14 20:00:16 Starting server 50052
+^Csignal: interrupt
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ go run server.go -port 50052[K1
+[?2004l2023/05/14 20:01:57 Starting server 50051
+
+I am the Reader
+
+Asking for latest response from 10.0.2.15:50051
+
+Asking for latest response from 10.0.2.15:50053
+
+ I am sending latest value
+
+Asking for latest response from 10.0.2.15:50054
+
+ RPC ended for: 
+ Token Id:  token2
+Token Reader:  [10.0.2.15:50053 10.0.2.15:50054 10.0.2.15:50051]
+Token Writer:  10.0.2.15:50052
+Token State Final Value:  0
+Token latest Timestamp:  1684108917
+
+All Token id's:
+token3
+token4
+token1
+token2
+
+Value is being imposed
+
+ I am sending latest value
+
+Value is being imposed
+
+I am the Reader
+
+Asking for latest response from 10.0.2.15:50051
+
+Asking for latest response from 10.0.2.15:50054
+
+Asking for latest response from 10.0.2.15:50052
+
+ I am sending latest value
+
+ RPC ended for: 
+ Token Id:  token4
+Token Reader:  [10.0.2.15:50052 10.0.2.15:50054 10.0.2.15:50051]
+Token Writer:  10.0.2.15:50053
+Token State Final Value:  0
+Token latest Timestamp:  1684108917
+
+All Token id's:
+token1
+token2
+token3
+token4
+
+Value is being imposed
+^Csignal: interrupt
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ exit
+[?2004lexit
+
+Script done on 2023-05-14 20:03:54-04:00 [COMMAND_EXIT_CODE="1"]

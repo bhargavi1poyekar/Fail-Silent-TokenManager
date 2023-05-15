@@ -1,0 +1,121 @@
+Script started on 2023-05-14 19:54:04-04:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="79" LINES="29"]
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ exitgo run server.go -port 50054
+[?2004l2023/05/14 19:54:08 Starting server 50054
+
+I am the Reader
+
+Asking for latest response from 10.0.2.15:50054
+
+Asking for latest response from 10.0.2.15:50052
+
+Asking for latest response from 10.0.2.15:50053
+
+ I am sending latest value
+
+ RPC ended for: 
+ Token Id:  token1
+Token Reader:  [10.0.2.15:50052 10.0.2.15:50053 10.0.2.15:50054]
+Token Writer:  10.0.2.15:50051
+Token State Final Value:  0
+Token latest Timestamp:  1684108448
+
+All Token id's:
+token1
+token2
+token3
+token4
+
+Value is being imposed
+
+ I am sending latest value
+
+Value is being imposed
+
+I am Writer
+
+Reader:%v
+ 10.0.2.15:50053
+
+Back to Writer
+
+ RPC ended for: 
+ Token Id:  token3
+Token Reader:  [10.0.2.15:50051 10.0.2.15:50052 10.0.2.15:50053]
+Token Writer:  10.0.2.15:50054
+Token State Final Value:  922
+Token latest Timestamp:  1684108631
+
+All Token id's:
+token2
+token3
+token4
+token1
+
+Sending to Writer
+
+ I am sending latest value
+
+Value is being imposed
+
+I am the Reader
+
+Asking for latest response from 10.0.2.15:50051
+
+Asking for latest response from 10.0.2.15:50052
+
+Asking for latest response from 10.0.2.15:50054
+
+ I am sending latest value
+
+ RPC ended for: 
+ Token Id:  token4
+Token Reader:  [10.0.2.15:50052 10.0.2.15:50054 10.0.2.15:50051]
+Token Writer:  10.0.2.15:50053
+Token State Final Value:  13
+Token latest Timestamp:  1684108659
+
+All Token id's:
+token2
+token3
+token4
+token1
+
+ I am sending latest value
+
+ I am sending latest value
+^Csignal: interrupt
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ go run server.go -port 50054
+[?2004l2023/05/14 20:01:38 Starting server 50054
+
+ I am sending latest value
+
+Value is being imposed
+
+I am Writer
+
+Reader:%v
+ 10.0.2.15:50053
+
+Back to Writer
+
+ RPC ended for: 
+ Token Id:  token3
+Token Reader:  [10.0.2.15:50051 10.0.2.15:50052 10.0.2.15:50053]
+Token Writer:  10.0.2.15:50054
+Token State Final Value:  82
+Token latest Timestamp:  1684109008
+
+All Token id's:
+token3
+token4
+token1
+token2
+
+ I am sending latest value
+
+Value is being imposed
+^Csignal: interrupt
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ exit
+[?2004lexit
+
+Script done on 2023-05-14 20:04:11-04:00 [COMMAND_EXIT_CODE="1"]

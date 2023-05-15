@@ -1,0 +1,15 @@
+Script started on 2023-05-14 20:02:35-04:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="29" LINES="10"]
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ go run client.go -w rite -id token2 -name tok2 -l ow [K[A[A[A]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ go run client.go -write -id token2 -name tok2 -low 40 -mid 50 -high 100 -host  localhost -port 50052
+[?2004l2023/05/14 20:03:22 Final value: 82
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ go run client.go -write -id token2 -name tok2 -low 40 -mid 50 -high 100 -host localhost -port 50052[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name tok2 -low 40 -mid 50 -high 100 -host l[1P[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C3 -name tok2 -low 40 -mid 50 -high 100 -host [1@l[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+[?2004l2023/05/14 20:03:28 Final value: 82
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ go run client.go -write -id token3 -name tok2 -low 40 -mid 50 -high 100 -host localhost -port 50052[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name tok2 -low 40 -mid 50 -high 100 -host l[1P[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C4 -name tok2 -low 40 -mid 50 -high 100 -host [1@l[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+[?2004l2023/05/14 20:03:34 Final value: 82
+[?2004h]0;bhargavi@Ubuntu: ~/go/src/token_manage[01;32mbhargavi@Ubuntu[00m:[01;34m~/go/src/token_manage[00m$ exit
+[?2004lexit
+
+Script done on 2023-05-14 20:03:50-04:00 [COMMAND_EXIT_CODE="0"]
